@@ -3,7 +3,9 @@
 }
 
 body {
-  background-color: #8fa1b1;
+  background: url("img/cork-board-background.jpg") repeat;
+  background-position: center;
+  background-size: cover;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
@@ -81,11 +83,13 @@ textarea {
 .note__title {
   font-size: 16px;
   font-weight: bold;
+  cursor: grab;
 }
 
 .note__description {
   flex-grow: 1;
   font-size: 14px;
+  cursor: grab;
 }
 
 .note__delete {
