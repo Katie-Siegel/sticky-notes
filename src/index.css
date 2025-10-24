@@ -5,7 +5,7 @@
 body {
   background: url("img/light-cork-board-background.jpg") repeat;
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   position: absolute;
   margin: 0;
   padding: 0;
