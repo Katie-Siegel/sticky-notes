@@ -6,6 +6,7 @@ body {
   background: url("img/light-cork-board-background.jpg") repeat;
   background-position: center;
   background-size: cover;
+  position: absolute;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
@@ -78,22 +79,23 @@ textarea {
 
 .note__title,
 .note__description {
-  font-family: "Indie Flower", cursive;
   width: 100%;
   padding: 8px 14px;
   background: transparent;
 }
 
 .note__title {
-  font-size: 16px;
+  font-family: "Indie Flower", open sans;
+  font-size: 18px;
   font-weight: bold;
-  cursor: grab;
+  cursor: default;
 }
 
 .note__description {
+  font-family: "Open Sans";
   flex-grow: 1;
   font-size: 14px;
-  cursor: grab;
+  cursor: default;
 }
 
 .note__delete {
@@ -107,5 +109,6 @@ textarea {
 
 .note__delete:hover {
   color: #593f62;
+  font-weight: 900;
   cursor: pointer;
 }
