@@ -3,7 +3,7 @@
 }
 
 body {
-  background: url("img/cork-board-background.jpg") repeat;
+  background: url("img/light-cork-board-background.jpg") repeat;
   background-position: center;
   background-size: cover;
   margin: 0;
@@ -28,6 +28,8 @@ textarea {
 .header__title {
   margin: 10px 20px 0px;
   font-family: Arial, sans-serif;
+  font-size: 3rem;
+  color: #36151e;
 }
 
 .header__controls {
@@ -46,6 +48,7 @@ textarea {
 .search {
   flex-grow: 1;
   max-width: 300px;
+  background-color: #ffe2fe;
 }
 
 .add-new {
@@ -53,7 +56,7 @@ textarea {
   cursor: pointer;
   padding: 8px;
   font-weight: bolder;
-  background-color: #db8084;
+  background-color: #593f62;
   outline: none;
 }
 
@@ -63,8 +66,8 @@ textarea {
   width: 200px;
   height: 200px;
   margin: 10px;
-  background-color: lightyellow;
-  border: 4px solid #23314a;
+  background-color: #ffe2fe;
+  border: 4px solid #36151e;
   box-shadow: 2px 2px 3px lightgrey;
   border-radius: 5px;
   display: flex;
@@ -102,6 +105,6 @@ textarea {
 }
 
 .note__delete:hover {
-  color: #db8084;
+  color: #593f62;
   cursor: pointer;
 }
