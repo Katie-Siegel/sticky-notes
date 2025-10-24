@@ -3,7 +3,7 @@
 }
 
 body {
-  background: url("img/light-cork-board-background.jpg") repeat;
+  background: url("img/light-cork-board-background.jpg") repeat #f8cc92;
   background-position: center;
   background-size: auto;
   position: absolute;
