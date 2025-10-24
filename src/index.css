@@ -27,8 +27,9 @@ textarea {
 
 .header__title {
   margin: 10px 20px 0px;
-  font-family: Arial, sans-serif;
+  font-family: "Indie Flower", sans-serif;
   font-size: 3rem;
+  font-weight: 900;
   color: #36151e;
 }
 
@@ -61,7 +62,7 @@ textarea {
 }
 
 .note {
-  font-family: "Permanent Marker", cursive;
+  font-family: "Indie Flower", cursive;
   color: #8fa1b1;
   width: 200px;
   height: 200px;
@@ -77,7 +78,7 @@ textarea {
 
 .note__title,
 .note__description {
-  font-family: "Permanent Marker", cursive;
+  font-family: "Indie Flower", cursive;
   width: 100%;
   padding: 8px 14px;
   background: transparent;
