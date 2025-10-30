@@ -1,18 +1,17 @@
 import React from "react";
 const Note = (props) => {
-  //updates title text
   const updateTitle = (e) => {
     const updatedValue = e.target.value;
     const editId = props.note.id;
     props.onType(editId, "title", updatedValue);
   };
-  //updates description text
+
   const updateDescription = (e) => {
     const updatedValue = e.target.value;
     const editId = props.note.id;
     props.onType(editId, "description", updatedValue);
   };
-  //deletes note
+
   const deleteNote = () => {
     props.removeNote(props.note.id);
   };
@@ -20,6 +19,7 @@ const Note = (props) => {
   return (
     <li className="note">
       <input
+        aria-label="note title"
         className="note__title"
         type="text"
         placeholder="Title"
@@ -27,6 +27,7 @@ const Note = (props) => {
         onChange={updateTitle}
       />
       <textarea
+        aria-label="note description"
         className="note__description"
         placeholder="Description..."
         value={props.note.description}

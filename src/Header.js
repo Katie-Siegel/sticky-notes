@@ -12,6 +12,7 @@ const Header = (props) => {
           + New Note
         </button>
         <input
+          aria-label="search box"
           className="search"
           type="text"
           placeholder="Type here to search..."

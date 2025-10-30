@@ -58,13 +58,13 @@ textarea {
   cursor: pointer;
   padding: 8px;
   font-weight: bolder;
-  background-color: #593f62;
+  background-color: #ae8fb7;
   outline: none;
 }
 
 .note {
   font-family: "Indie Flower", cursive;
-  color: #8fa1b1;
+  color: #2e2eff;
   width: 200px;
   height: 200px;
   margin: 10px;
@@ -103,12 +103,12 @@ textarea {
   top: 0px;
   right: 0px;
   font-size: 20px;
-  color: #8fa1b1;
+  color: #593f62;
   padding: 5px;
 }
 
 .note__delete:hover {
-  color: #593f62;
+  color: #36151e;
   font-weight: 900;
   cursor: pointer;
 }

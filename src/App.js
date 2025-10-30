@@ -17,23 +17,16 @@ class App extends Component {
   };
 
   addNote = (e) => {
-    //create a new note
     const newNote = {
       id: Date.now(),
       title: "",
       description: "",
       doesMatchSearch: true,
     };
-
-    //Add the new note to the existing array
     this.setState({ notes: [newNote, ...this.state.notes] });
   };
 
-  //updateing text in note titles and description
   onType = (noteID, updatedKey, updatedValue) => {
-    //noteID == id of the note that is edited
-    //updatedKey == title or description field
-    //updateValue == value of title or description
     const updatedNotes = this.state.notes.map((note) => {
       if (note.id !== noteID) {
         return note;
@@ -50,7 +43,6 @@ class App extends Component {
     this.setState({ notes: updatedNotes });
   };
 
-  //searching for specific note content
   onSearch = (text) => {
     const newSearchText = text.toLowerCase();
     const updatedNotes = this.state.notes.map((note) => {
