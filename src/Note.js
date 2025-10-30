@@ -19,6 +19,7 @@ const Note = (props) => {
   return (
     <li className="note">
       <input
+        aria-label="note title"
         className="note__title"
         type="text"
         placeholder="Title"
@@ -26,6 +27,7 @@ const Note = (props) => {
         onChange={updateTitle}
       />
       <textarea
+        aria-label="note description"
         className="note__description"
         placeholder="Description..."
         value={props.note.description}
